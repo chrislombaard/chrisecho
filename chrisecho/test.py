@@ -14,6 +14,10 @@ class EchoTest(unittest.TestCase):
     def test_2(self):
         self.assertGreater(2, 1)
 
+    def test_json(self):
+        x = Echo()
+        self.assertEqual(x.do_request()["count"], 0)
+
 def main():
     unittest.main()
 
