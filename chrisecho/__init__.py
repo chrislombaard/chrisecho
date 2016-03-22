@@ -8,6 +8,9 @@ class Echo():
 
     def do_request(self):
         r = requests.get("http://demo.jmbo.org/api/v1/listing/1/?format=json")
-        return r.json()
-
-    
+        # Prior to reauests 1.0 json was a property
+        json = r.json
+        if callable(json):
+            return json()
+        else:
+            return json
