@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='chrisecho',
-    version='1.0',
+    version='1.0.1',
     description='Echos something to the console.',
     author='Chris Lombaard',
     author_email='chrislombaard@gmail.com',
@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     test_suite="test",
     install_requires = [
-        'requests',  
+        'requests',
         'tox',
     ],
     classifiers=[
