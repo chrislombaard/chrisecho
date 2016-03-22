@@ -1,0 +1,45 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/Users/chrislombaard/Documents/chrisecho/ve/bin/python', local('/Users/chrislombaard/Documents/chrisecho/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/chrislombaard/Documents/chrisecho/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing requirements to chrisecho.egg-info/requires.txt
+writing chrisecho.egg-info/PKG-INFO
+writing top-level names to chrisecho.egg-info/top_level.txt
+writing dependency_links to chrisecho.egg-info/dependency_links.txt
+reading manifest file 'chrisecho.egg-info/SOURCES.txt'
+writing manifest file 'chrisecho.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+creating chrisecho-1.0
+creating chrisecho-1.0/chrisecho
+creating chrisecho-1.0/chrisecho.egg-info
+making hard links in chrisecho-1.0...
+hard linking setup.py -> chrisecho-1.0
+hard linking chrisecho/__init__.py -> chrisecho-1.0/chrisecho
+hard linking chrisecho/test.py -> chrisecho-1.0/chrisecho
+hard linking chrisecho.egg-info/PKG-INFO -> chrisecho-1.0/chrisecho.egg-info
+hard linking chrisecho.egg-info/SOURCES.txt -> chrisecho-1.0/chrisecho.egg-info
+hard linking chrisecho.egg-info/dependency_links.txt -> chrisecho-1.0/chrisecho.egg-info
+hard linking chrisecho.egg-info/not-zip-safe -> chrisecho-1.0/chrisecho.egg-info
+hard linking chrisecho.egg-info/requires.txt -> chrisecho-1.0/chrisecho.egg-info
+hard linking chrisecho.egg-info/top_level.txt -> chrisecho-1.0/chrisecho.egg-info
+Writing chrisecho-1.0/setup.cfg
+creating '.tox/dist/chrisecho-1.0.zip' and adding 'chrisecho-1.0' to it
+adding 'chrisecho-1.0/PKG-INFO'
+adding 'chrisecho-1.0/setup.cfg'
+adding 'chrisecho-1.0/setup.py'
+adding 'chrisecho-1.0/chrisecho/__init__.py'
+adding 'chrisecho-1.0/chrisecho/test.py'
+adding 'chrisecho-1.0/chrisecho.egg-info/dependency_links.txt'
+adding 'chrisecho-1.0/chrisecho.egg-info/not-zip-safe'
+adding 'chrisecho-1.0/chrisecho.egg-info/PKG-INFO'
+adding 'chrisecho-1.0/chrisecho.egg-info/requires.txt'
+adding 'chrisecho-1.0/chrisecho.egg-info/SOURCES.txt'
+adding 'chrisecho-1.0/chrisecho.egg-info/top_level.txt'
+removing 'chrisecho-1.0' (and everything under it)
